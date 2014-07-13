@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/myjs.js"></script>
+	</head>
+
+	<body>
+		
+		
+		<h1>Training Datenerfassung</h1>
+		<form name="sportForm">
+			Sportlername:<br><input type="text" name="sportlername"><br>
+			Strecke(km):<br><input type="text" name="strecke"><br>
+			Datum:<br><input type="text" name="datum"><br>
+			<!-- befinden:<br><input type="text" name="befinden"><br> -->
+			befinden:<br><select id="befinden" name="befinden">
+						 <option value="gut">gut</option>
+						 <option value="mittel">mittel</option>
+						 <option value="schlecht">schlecht</option>
+						 </select><br><br>		
+		</form>
+
+		<button id="but_abschicken">abschicken</button>
+		
+		<h1>Daten Tagebuch</h1>
+		<div id="ausgabe">  </div><br>	
+		
+	</body>
+</html>

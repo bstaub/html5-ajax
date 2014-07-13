@@ -1,0 +1,22 @@
+{
+	"p1":	{
+				"name":	"Bruno Staub",
+				"age":	"41",
+				"company":	"SPZ"
+	},
+	"p2":	{
+				"name":	"Nadine Jordi",
+				"age":	"33",
+				"company":	"Sandvic"
+	},
+	"p3":	{
+				"name":	"Hans Staub",
+				"age":	"74",
+				"company":	"Privat"
+	},
+	"p4":	{
+				"name":	"Isabel Eberling",
+				"age":	"44",
+				"company":	"Lehrerin"
+	}
+}

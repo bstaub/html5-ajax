@@ -1,0 +1,21 @@
+{    "gerichte": [
+        {
+            "name": "Eis-Portionen",
+            "kategorie": "eisportionen",
+            "inhalt": [
+                {
+                    "name": "Eis 1"
+                },
+                {
+                    "name": "Eis 2"
+                },
+                {
+                    "name": "Eis 3"
+                },
+                {
+                    "name": "Eis 4"
+                }
+            ]
+        }
+    ]
+}
