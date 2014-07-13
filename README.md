@@ -1,8 +1,6 @@
 html5-ajax
 ==========
 
-# Chromebook #
-
 Developing Area STBR
  
 ## Branch
