@@ -3,27 +3,43 @@
 	<head>
 		<meta charset="utf-8">
 		<title>yahoo weatherforcast ajax jquery example</title>
+		<meta name="description" content="STBR Umfragen Webentwicklung">
+		<meta name="author" content="Bruno Staub">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
 
 	<body>
-		
-	<form name="formAuswahl">
-		Standort:	<select name="dropStandorte" id="dropStandorte">
-					<option value="23707368">Luzern</option>
-					<option value="784794">Zürich</option>	
-					<option value="781788">Bern</option>
-					</select>
-		Einheit:	<select name="dropEinheit" id="dropEinheit">
-					<option value="c">Celsius</option>
-					<option value="f">Fahrenheit</option>	
-					</select>
-					
-	<button id="submit">OK</button>
-	</form>	
 	
 	<div id="main">
-		Wetter Grafik: 	<img src="" id="wetterbild"><br>
-		Temperatur: 	<div id="temp">> XX </div>
+	
+		<div id="box1">
+		  <form name="formAuswahl">
+			Standort:	<select name="dropStandorte" id="dropStandorte">
+						<option value="23707368">Luzern</option>
+						<option value="784794">Zürich</option>	
+						<option value="781788">Bern</option>
+						</select>
+			Einheit:	<select name="dropEinheit" id="dropEinheit">
+						<option value="c">Celsius</option>
+						<option value="f">Fahrenheit</option>	
+						</select>				
+		  <button id="submit">OK</button>
+		  </form>
+		</div>
+	
+	
+		<div id="box2">
+		  <h3> </h3>
+		  
+		  <table>
+		  	<tr><td><div id="temp"> </div></td></tr>
+		  	<tr><td><img src="" id="wetterbild"></td></tr>
+		  	<tr><td><div id="datum"> </div></td></tr>
+		  </table>
+		  
+		  
+		</div>
 		
 	</div>
 	
